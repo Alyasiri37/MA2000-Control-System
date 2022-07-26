@@ -1,0 +1,35 @@
+****************************************************************************************
+**************************************Change Log ***************************************
+****************************************************************************************
+27-jan-2012		Matlab logging added
+28-jan-2012		Truncation moved from error to plant input
+28-jan-2012		Truncation added to the controller output
+29-jan-2012		Log configuration added
+30-jan-2012		Evaluation log added
+30-jan-2012		Tuner configuration log added
+31-jan-2012		RND randomization problem semi-fixed
+03-Feb-2012		Constriction factor applied according to Clerc opinion.
+03-Feb-2012		PID parameter log added (log for each epoch).
+03-Feb-2012		ITAE criterion added (for response evaluation).
+03-Feb-2012		Integrator function fixed (Specific for ITAE criterion) .
+04-Feb-2012		Degree to volt conversion added to position configuration.
+04-Feb-2012		All positions configurations inputs changed from volts to degrees.
+04-Feb-2012		Fixed data logging functions.
+04-Feb-2012		Over-Shoot and Rise-Time calculations added.
+04-Feb-2012		Over-Shoot log added.
+04-Feb-2012		Rise-Time Log Added.
+06-Mar-2012		Integrator function fixed(modified sample time).
+12-Mar-2012		Added negative PID value cancellation.
+12-Mar-2012		Overshoot function fixed.
+12-Mar-2012		Rise Time function fixed.
+17-Apr-2012		Fixed PID problem (integral term)
+24-Apr-2012		Log autosaved now,(data loss prevention)
+24-Apr-2012		Filenames contain date tags, preventing file overwriting
+24-Apr-2012		Added constructor to the control class in order to set windup limit individually
+01-May-2012		matlab file generator added to ease the data extraction from the bulker.
+04-May-2012		Fixed log loss protection plus minor modifications.
+07-May-2012		Path following added.
+02-Jun-2012		Path save/load added.
+02-Jun-2012		Path point saving added.
+31-Jul-2012		Fixed "STOP" Functionality.
+31-Jul-2012		Added parameter log to the PID, "Free Run"
